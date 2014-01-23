@@ -10,8 +10,12 @@ setTimeout:true, before:true, clearTimeout:true, exports:true, it:true, describe
   /**
     @class
     @alias PurchaseType
-    @property {String} Name
+    @property {String} Code
     @property {String} Description
+    @property {Boolean} isActive
+    @property {PurchaseEmail} emailProfile
+    @property {Characteristics} characteristics
+    @Property {PurchaseTypeWorkflow} workflow
   */
   var spec = {
     recordType: "XM.PurchaseType",
@@ -84,7 +88,7 @@ setTimeout:true, before:true, clearTimeout:true, exports:true, it:true, describe
     it.skip("Next Status picker in the Workflow should contain the following options: No Change," +
     "Unreleased, Open, Closed", function () {
     });
-  });
+  };
   exports.spec = spec;
   exports.additionalTests = additionalTests;
 }());

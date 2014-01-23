@@ -32,7 +32,7 @@ setTimeout:true, before:true, clearTimeout:true, exports:true, it:true, describe
     },
     createHash: {
       code: "TestProjectType" + Math.random(),
-      description: "Test project type",
+      description: "Test project type"
     },
     defaults: {
       isActive: true
@@ -87,8 +87,6 @@ setTimeout:true, before:true, clearTimeout:true, exports:true, it:true, describe
 
     });
   };
-
   exports.spec = spec;
   exports.additionalTests = additionalTests;
-
 }());
