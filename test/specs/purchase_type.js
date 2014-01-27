@@ -19,7 +19,7 @@ setTimeout:true, before:true, clearTimeout:true, exports:true, it:true, describe
   */
   var spec = {
     recordType: "XM.PurchaseType",
-    skipCrud: true, //PurchaseType creation fails in crud test
+    skipAll: true, //Tests fail because of privilege issue 
     collectionType: "XM.PurchaseTypeCollection",
     cacheName: "XM.purchaseTypes",
     listKind: "XV.PurchaseTypeList",

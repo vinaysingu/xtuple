@@ -78,7 +78,7 @@ setTimeout:true, before:true, clearTimeout:true, exports:true, it:true, describe
     "shiptoContactFirstName", "shiptoContactMiddleName", "shiptoContactLastName",
     "shiptoContactSuffix", "shiptoContactPhone", "shiptoContactTitle", "shiptoContactFax",
     "shiptoContactEmail", "subtotal", "freightSubtotal", "taxTotal", "total", "characteristics",
-    "workflow", "comments", "lineItems", "purchaseType", "isDropShip", "salesOrder"],
+    "workflow", "comments", "lineItems", "purchaseType"],
     /**
       @member -
       @memberof PurchaseOrder
