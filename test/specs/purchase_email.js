@@ -25,7 +25,7 @@
   **/
 
   var spec = {
-      skipAll: true, //tests fail because of missing permissions by default
+      skipAll: true, //tests fail because of unassigned priviliges by default
       recordType: "XM.PurchaseEmailProfile",
       collectionType: "XM.PurchaseEmailProfileCollection",
       listKind: "XV.PurchaseEmailProfileList",

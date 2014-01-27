@@ -19,7 +19,7 @@ setTimeout:true, before:true, clearTimeout:true, exports:true, it:true, describe
   */
   var spec = {
     recordType: "XM.PurchaseType",
-    skipAll: true, //Tests fail because of privilege issue 
+    skipAll: true, //Tests fail because of unassigned privileges
     collectionType: "XM.PurchaseTypeCollection",
     cacheName: "XM.purchaseTypes",
     listKind: "XV.PurchaseTypeList",
