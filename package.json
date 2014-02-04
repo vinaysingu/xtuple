@@ -48,8 +48,7 @@
     "mocha": "1.9.x",
     "require-uncache": "0.0.x",
     "html5": "0.3.13",
-    "zombie": "1.4.x",
-    "wd": "1.2.30"
+    "zombie": "1.4.x"
   },
   "optionalDependencies": {
     "xtuple-query": "~1.0.0",
