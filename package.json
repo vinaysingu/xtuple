@@ -18,7 +18,7 @@
     "connect-ensure-login": "0.1.x",
     "ejs": "0.8.x",
     "express": "3.1.x",
-    "fluentreports": "0.0.x",
+    "fluentreports": "git://github.com/xtuple/fluentreports.git",
     "json-patch": "git://github.com/xtuple/JSON-Patch.git",
     "less": "1.5.0",
     "moment": "2.4.x",
@@ -49,7 +49,7 @@
     "require-uncache": "0.0.x",
     "html5": "0.3.13",
     "zombie": "1.4.x",
-    "wd: "1.2.30"
+    "wd": "1.2.30"
   },
   "optionalDependencies": {
     "xtuple-query": "~1.0.0",
